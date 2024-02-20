@@ -1,2 +1,3 @@
-# App-previs-o-de-chuva
-Aplicação em php e utilização da api water 
+# Previsão de chuva
+
+Aplicação em php, utilização da Weather API
