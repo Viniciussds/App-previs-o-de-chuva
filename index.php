@@ -104,12 +104,10 @@ function city_selected($cidade, $selected_city)
                     </div>
                 </div>
                 <hr>
-                <!-- Current !-->
                 <?php
                 $agua_info = $current;
                 include 'inc/agua-info.php';
                 ?>
-                <!-- Forecast !-->
                 <?php foreach ($forecast as $day): ?>
                     <?php
                     $agua_info = $day;
@@ -128,7 +126,7 @@ function city_selected($cidade, $selected_city)
 
         select.addEventListener('change', function () {
             const cidade = this.value;
-            loadingIndicator.style.display = 'block'; // Exibe o indicador de carregamento
+            loadingIndicator.style.display = 'block'; 
             window.location.href = `index.php?cidade=${cidade}`;
         });
     </script>
